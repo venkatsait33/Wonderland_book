@@ -1,0 +1,43 @@
+@import "tailwindcss";
+.book-container {
+  background: #f8f1df;
+  border: 14px solid #5c3b1e;
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 25px 60px rgba(0, 0, 0, 0.5),
+    inset 0 0 40px rgba(0, 0, 0, 0.12);
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+/* .book-container::before {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  top: 0;
+
+  width: 30px;
+  height: 100%;
+
+  background: linear-gradient(to right, #3a2412, #6b4226);
+
+  box-shadow:
+    inset -5px 0 10px rgba(255, 255, 255, 0.2),
+    5px 0 15px rgba(0, 0, 0, 0.3);
+} */
+body {
+  background: #3b2a1f;
+}
+
+.book-page {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0.02)), #f8f1df;
+
+  color: #2c2c2c;
+}
