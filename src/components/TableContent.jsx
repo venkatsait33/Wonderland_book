@@ -54,12 +54,6 @@ export function TableOfContent() {
             </a>
           ))}
         </div>
-
-        <div className="mt-24 flex justify-center items-center gap-4">
-          <div className="w-20 h-[1px] bg-[#b79572]" />
-          <div className="w-3 h-3 rounded-full bg-[#b79572]" />
-          <div className="w-20 h-[1px] bg-[#b79572]" />
-        </div>
       </div>
     </section>
   );
